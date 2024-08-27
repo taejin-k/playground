@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "turbo dev",
-    "dev:home": "pnpm --filter 'home' dev",
-    "dev:board": "pnpm --filter 'board' dev",
+    "dev:home": "pnpm --filter home dev",
+    "dev:board": "pnpm --filter board dev",
     "build": "turbo build",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
