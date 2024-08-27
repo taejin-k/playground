@@ -6,8 +6,11 @@
     "dev:home": "pnpm --filter home dev",
     "dev:board": "pnpm --filter board dev",
     "build": "turbo build",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "build:home": "pnpm --filter home build",
+    "build:board": "pnpm --filter board build",
+    "start": "pnpm -r start",
+    "start:home": "pnpm --filter home start",
+    "start:board": "pnpm --filter board start"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
