@@ -10,7 +10,8 @@
     "build:board": "pnpm --filter board build",
     "start": "pnpm -r start",
     "start:home": "pnpm --filter home start",
-    "start:board": "pnpm --filter board start"
+    "start:board": "pnpm --filter board start",
+    "clean": "bash scripts/clean.sh"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
