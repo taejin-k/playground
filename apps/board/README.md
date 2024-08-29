@@ -6,3 +6,4 @@ This is board
 
 - 환경 변수
 - Drag and Drop
+- Husky

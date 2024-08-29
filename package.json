@@ -11,9 +11,12 @@
     "start": "pnpm -r start",
     "start:home": "pnpm --filter home start",
     "start:board": "pnpm --filter board start",
-    "clean": "bash scripts/clean.sh"
+    "lint": "next lint",
+    "clean": "bash scripts/clean.sh",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.1.5",
     "prettier": "^3.2.5",
     "turbo": "^2.0.14",
     "typescript": "^5.4.5"
