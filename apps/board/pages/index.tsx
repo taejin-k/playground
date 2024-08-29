@@ -61,6 +61,8 @@ export default function Board() {
 
   if (!animationEnabled) return null;
 
+  console.log("!");
+
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <div style={{ display: "flex", gap: 10 }}>
