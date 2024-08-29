@@ -11,9 +11,10 @@
     "start": "pnpm -r start",
     "start:home": "pnpm --filter home start",
     "start:board": "pnpm --filter board start",
-    "lint": "next lint",
     "clean": "bash scripts/clean.sh",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format": "prettier --cache --write .",
+    "lint": "eslint --cache ."
   },
   "devDependencies": {
     "husky": "^9.1.5",
